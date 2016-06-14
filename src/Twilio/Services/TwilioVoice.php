@@ -2,6 +2,8 @@
 
 namespace ColoredCow\Twilio\Services;
 
+use Exception;
+use Log;
 /**
 * Voice Service Class for Twilio
 */
@@ -24,11 +26,6 @@ class TwilioVoice extends Twilio
 		} catch (Exception $e) {
 			
 			Log::error($e);
-            $action = "Attempt to call on $to failed";
-            $description = $e->faultstring;
-            $filename = basename(__FILE__);
-            $ip = '';
-            Event::fire(new MakeAuditEntry($action, $description, $filename, $ip));
 
             return false;
 

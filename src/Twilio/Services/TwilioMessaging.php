@@ -2,12 +2,8 @@
 
 namespace ColoredCow\Twilio\Services;
 
-use Event;
 use Exception;
 use Log;
-use myocuhub\Events\MakeAuditEntry;
-use myocuhub\Services\Twilio\Twilio;
-
 /**
 * Messaging Service Class for Twilio
 */
