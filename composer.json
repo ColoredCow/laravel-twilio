@@ -1,0 +1,27 @@
+{
+	"name": "coloredcow/laravel-twilio",
+	"description": "Twilio Integration for Laravel",
+	"type": "",
+	"version": "1.0.1",
+	"keywords":["laravel","twilio","twilio-php-sdk","php-twilio"],
+	"homepage": "http://coloredcow.in",
+	"license":"GPL-3.0+",
+	"repositories":[
+		{
+			"type": "git",
+			"url": "https://github.com/coloredcow/laravel-twilio.git"
+		}
+	],
+	"authors":[
+		{
+			"name": "Nishanth KD",
+			"email": "kd@coloredcow.in",
+			"homepage": "http://coloredcow.in"
+		}
+	],
+	"require": {
+		"php": ">=5.5.12"
+		"composer/installers": "v1.0.1",
+		"twilio/sdk": "^4.10"
+	},
+}
