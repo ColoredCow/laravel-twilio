@@ -20,8 +20,8 @@
 		}
 	],
 	"require": {
-		"php": ">=5.5.12"
+		"php": ">=5.5.12",
 		"composer/installers": "v1.0.1",
 		"twilio/sdk": "^4.10"
-	},
+	}
 }
