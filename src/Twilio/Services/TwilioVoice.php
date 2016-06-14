@@ -4,6 +4,7 @@ namespace ColoredCow\Twilio\Services;
 
 use Exception;
 use Log;
+
 /**
 * Voice Service Class for Twilio
 */
