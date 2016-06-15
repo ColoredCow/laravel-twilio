@@ -22,7 +22,7 @@
 	"require": {
 		"php": ">=5.5.12",
 		"twilio/sdk": "^4.10"
-	}
+	},
 	"autoload":{
 		"psr-4":{
 			"ColoredCow\\Twilio\\":"src/Twilio/"
