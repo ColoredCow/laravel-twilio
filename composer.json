@@ -2,7 +2,7 @@
 	"name": "coloredcow/laravel-twilio",
 	"description": "Twilio Integration for Laravel",
 	"type": "",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"keywords":["laravel","twilio","twilio-php-sdk","php-twilio"],
 	"homepage": "http://coloredcow.in",
 	"license":"GPL-3.0+",
@@ -21,7 +21,11 @@
 	],
 	"require": {
 		"php": ">=5.5.12",
-		"composer/installers": "v1.0.1",
 		"twilio/sdk": "^4.10"
 	}
+	"autoload":{
+		"psr-4":{
+			"ColoredCow\\Twilio\\":"src/Twilio/"
+		}
+	} 
 }
