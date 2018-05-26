@@ -1,5 +1,5 @@
 # Laravel and Twilio Integration
-Twilio Integration for Laravel
+Quickly add the ability to send SMS from your laravel applications using Twilio service.
 
 
 ## Installation
